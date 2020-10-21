@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	 font-family: sans-serif; font-size: 0.9em
+}
+.clearfix{
+	clear: both;
+}
+#header{
+	background: url("../img/banner2.jpg") no-repeat center top #078200;
+	background-size: 100% 100%;
+	height: 357px;
+}
+.navbar{
+	overflow: hidden;
+	background-color: #00b300;
+	height: 50px;
+}
+.navbar a{
+	float: left;
+	font-size: 16px; color: white;
+	text-align: center; padding: 14px 16px;
+	text-decoration: none;
+}
+.dropdown{
+	float: left;
+	overflow: hidden;
+}
+.dropdown .dropbtn{
+	font-size: 16px; border: none; 
+	color: white; padding: 14px 16px;
+	background-color: inherit;  font-family: inherit; margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #00ff00; }
+.dropdown-content{
+	display: none;
+	background-color: #f9f9f9;
+	position: absolute;
+	min-width: 160px;
+	z-index: 1;
+	box-shadow: 0px 8px 16px 0px #e6e6e6;
+}
+.dropdown-content a{
+	float: none;
+	color: black;
+	padding: 12px 16px; text-decoration: none; 
+	display: block;
+	text-align: left;
+}
+.dropdown-content a:hover {
+	background-color: #ddd;	}
+.dropdown:hover .dropdown-content {
+	display: block;}
+.navbar .search-container{
+	float: right;
+}
+.navbar input[type=text]{
+	padding: 6px;
+	margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+.navbar .search-container button{
+	float: right;
+	padding: 6px 10px;
+	margin-top: 8px;
+	margin-right: 16px;
+	background: #ddd;
+	font-size: 17px;
+	border: none;
+	cursor: pointer;
+}
+#monngon .subtitle{
+	text-align: center; 
+	text-transform: uppercase;
+	font-size: 2em;
+	font-weight: 600;
+	color: #078200;
+	padding: 10px; margin: 0px;
+}
+.title{
+	text-align: center;
+	font-size: 3em;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.soup, .goi, .lau{
+	width: 33%; float: left;
+	border: solid 1px black;
+}
+#monngon .khunghinh{
+	width: 49%;
+	float: left;
+}
+#monngon .hinh{
+	width: 100%;
+}
+#monngon .khunghinh p{
+	text-align: center;
+	font-weight: bold; font-size: 16px;
+}
+#monngon .khungsubtitle{
+	background-color: #f2f2f2;
+}
+#daubep .khungbep{
+	background-color: #f2f2f2;
+	text-align: center;
+	padding: 2%;
+}
+#daubep .hinhbep{
+	width: 20%;
+	border: 2px solid #00B300;
+	margin-left: 4px;
+}
+#gioithieu .noidung{
+	width: 42%;
+	float: left;
+	padding-left: 8%;
+	padding-top: 3%;
+}
+#gioithieu .noidung p{
+	text-align: justify;
+	line-height: 2;
+}
+#gioithieu .hinhgioithieu{
+	width: 45%;
+	float: left;
+	padding-left: 5%;
+	padding-top: 3%;
+}
+#gioithieu .hinhgt{
+	width: 35%;
+margin-right: 4px;
+}
+#feedback{
+	padding: 5% 10%;
+	background-color: #f2f2f2;
+}
+#feedback .col-3{
+	width: 22%;
+	float: left;
+	padding-right: 3%;
+}
+#feedback .nx{
+	text-align: justify;
+	font-style: italic;
+	color: #808080;
+	line-height: 2;
+}
+#feedback .kh{
+	font-weight: bold;
+	color: #e68a00;
+}
+#footer{
+	height: 300px;
+	background-color: #078200;
+	color: #FFFFFF;
+	padding: 20px;
+}
+#footer .lienhe{
+	width: 45%;
+	float: right;
+}
+#footer .lienhe li{
+	line-height: 2;
+}
+#footer .map{
+	width: 45%;
+	float: left;
+	height: 100%;
+	
+}
+#datban{
+	padding: 0 10% 5% 10%;
+	font-weight: bold;
+}
+#datban .col-4{
+	float: right;
+	width: 45%;
+	height: 300px;
+}
+#datban .col-4 .hinhdatban{
+	width: 100%;
+}
+#datban .col-8{
+	float: left;
+	width: 45%;
+	height: 270px;
+	padding-left: 5%; padding-top: 5%;
+	background-image: url("../img/LaBoDe.jpg") no-repeat;	
+}
+#datban table{
+	width: 80%;
+}
+.left{
+	text-align: left;
+}
+.right{
+	text-align: right;
+}
+#datban input[type=text], textarea{
+	width: 100%;
+}
+#datban input[type=button]{
+	border: none;
+	
+}
